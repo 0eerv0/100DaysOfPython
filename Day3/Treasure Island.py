@@ -10,13 +10,13 @@ answer = input("Do you want to enter the maze to find the treasure? Y or N ")
 if answer == "Y":
     door = input("You enter a room and you find 2 doors. Do you want to go left or right? L or R")
     if door == "L":
-        strip = input("Good choice! You find a stripper. Do you want to comit adultery with her or leave? Y or N")
+        strip = input("Good choice! You find a mysterious bottle. Do you want to drink it or leave the room? Y or N")
         if strip == "Y":
-            print("YOU JUST GOT AIDS HAH. YOU DIED!")
+            print("YOU JUST GOT POISONED. YOU DIED!")
         elif strip == "N":
-            print("GAY")
+            print("COWARD!")
     if door == "R":
-        print("CONGRATULATIONS You found the treasure chest. You open it and find a bunch of dildos. Now go fuck yourself!")
+        print("CONGRATULATIONS You found the treasure chest. You open it and the mighty treasure.")
 else:
-    print("Pussy!")
+    print("COWARD!")
         
